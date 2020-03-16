@@ -1,0 +1,47 @@
+* {
+	margin: 0px;
+	font-family: verdana;
+	color: white;
+}
+
+.fo {
+	text-align: center;
+}
+
+body {
+	background-image: url(../imagens/images.jpg);
+	background-size: 1800px 1300px;
+	background-repeat: no-repeat;
+}
+
+.formulario {
+	margin-top: 30px;
+}
+
+fieldset {
+	width: 70%;
+	margin: auto;
+}
+
+input {
+
+	color: blue;
+}
+select{
+
+	color: blue;
+}
+
+option {
+	color: blue;
+}
+
+textarea{
+
+	color: black;
+}
+
+section {
+	margin-left: 250px;
+	margin-top: 10px;
+}

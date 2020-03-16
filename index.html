@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<h1 class="fo">Formulário</h1>
+	<fieldset>
+		<legend>Dados pessoais</legend>
+			<form class="formulario" method="post" action="">
+				<table>
+					<tr>
+						<td>Nome:<td><input type="text" name="nome" required="" placeholder="Digite seu nome">
+					</tr>
+					<tr>
+						<td>Endereço:<td><input type="text" name="endereco" required="" placeholder="Digite seu endereço">
+					</tr>
+					<tr>
+						<td>Cidade:<td><input type="text" name="cidade" required="" placeholder="Digite sua cidade">
+					</tr>
+
+					<tr>
+						<td>Estado
+						<td><select name="Sp">
+							<option value="SP">São Paulo</option>
+							<option value="SP">Rio de Janeiro</option>
+							<option value="SP">Ceará</option>
+						</select>
+					</tr>
+				</table>
+			
+		</fieldset>
+
+		<fieldset>
+			<legend>Dados profissionais</legend>
+			Natureza do cargo <br>
+
+			<input type="radio" name="cargo">Gerência
+			<input type="radio" name="cargo">Financeiro
+			<input type="radio" name="cargo">Recepção
+			<input type="radio" name="cargo">Administrativo
+			<input type="radio" name="cargo">Jurídico <br><br>
+
+			Area de interesse <br>	
+			<input type="checkbox" name="Interesse">Computação
+			<input type="checkbox" name="Interesse">Biologia
+			<input type="checkbox" name="Interesse">Meio Ambiente
+			<input type="checkbox" name="Interesse">Engenharia
+			<input type="checkbox" name="Interesse">História <br>  <br>
+
+			Mini currículo <br>
+			<textarea rows="7"></textarea>
+
+		</fieldset>
+		<section>
+			<input class="botao" type="submit" value="Enviar">
+			<input class="botao" type="reset" value="Limpar">
+		</section>
+	</form>
+	</div>	
+</body>
+</html>
+
+
+
+
+
+
